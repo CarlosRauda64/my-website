@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nanum+Gothic&display=swap');
+/* CSS Soporta la declaración de las variables de esta manera: */
+:root{
+    --primary-color: #17153B; 
+    --secondary-color: #2E236C;  
+
+    --primary-font: "Nanum Gothic", sans-serif;
+    --secondary-font: "Edu AU VIC WA NT Hand";
+}
+
 h1{
-    color: red;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
 }
