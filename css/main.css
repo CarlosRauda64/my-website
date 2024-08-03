@@ -26,3 +26,13 @@
     color: var(--white);
     font-family: var(--primary-font);
 }
+
+.navbar-icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-icon{
+    width: 30%;
+    height: 40%;
+}
