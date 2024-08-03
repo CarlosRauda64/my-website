@@ -3,12 +3,26 @@
 :root{
     --primary-color: #17153B; 
     --secondary-color: #2E236C;  
-
+    --white: #ffff;
     --primary-font: "Nanum Gothic", sans-serif;
     --secondary-font: "Edu AU VIC WA NT Hand";
 }
 
-h1{
-    color: var(--secondary-color);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem; 
+}
+
+.navbar-title{
+    color: var(--white);
     font-family: var(--primary-font);
 }
