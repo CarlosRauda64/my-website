@@ -53,3 +53,7 @@
     font-family: var(--secondary-font);
     color: var(--white);
 }
+
+.content{
+    background-color: var(--white);
+}
