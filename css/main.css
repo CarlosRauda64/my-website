@@ -55,5 +55,33 @@
 }
 
 .content{
-    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    margin: 2rem;
+    place-items: center;
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.about-container-image{
+    display: flex;
+    height: 50vh;
+    gap: 1rem;
+}
+
+
+.about-img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* :nth-child() Sirve para seleccionar una 
+clase de un conjunto de clases con el mismo nombre */
+.about-img:nth-child(2){
+    position: relative;
+    top: 25px;
 }
