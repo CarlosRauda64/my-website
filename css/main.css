@@ -1,38 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nanum+Gothic&display=swap');
+
 /* CSS Soporta la declaración de las variables de esta manera: */
-:root{
-    --primary-color: #17153B; 
-    --secondary-color: #2E236C;  
+:root {
+    --primary-color: #17153B;
+    --secondary-color: #2E236C;
     --white: #ffff;
     --primary-font: "Nanum Gothic", sans-serif;
     --secondary-font: "Edu AU VIC WA NT Hand";
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
-    padding: 1rem; 
+    background-color: var(--secondary-color);
+    padding: 1rem;
 }
 
-.navbar-title{
+.navbar-title {
     color: var(--white);
     font-family: var(--primary-font);
 }
 
-.navbar-icons{
+.navbar-icons {
     display: flex;
     justify-content: flex-end;
 }
 
-.navbar-icon{
+.navbar-icon {
     width: 30%;
     height: 40%;
+}
+
+.header {
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--secondary-font);
+    color: var(--white);
 }
